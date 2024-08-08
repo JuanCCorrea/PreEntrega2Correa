@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.narvbar{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:center;
+    text-decoration:none;
+    color: #0F67B1;
+    font-family: "Istok Web";
+}
+
+h1{
+    color: #3FA2F6;
+    font-family: "Istok Web";
+}
+
+h2{
+    color: #0F67B1;
+    font-family: "Istok Web";
+    text-align: center;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px ;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+footer{
+    list-style-image: url("../assets/img/instagram\ \(1\).png");
+}
+
+
+.quieneSomos{
+    font-family: "Istok Web";
+    color:#0F67B1;
+    text-align: center;
+}
+
+.surf{
+    font-family: "Istok Web";
+    color:#0F67B1;
+    text-align: center;
+}
+
+.reserva{
+    font-family: "Istok Web";
+    color:#0F67B1;
+    text-align: center;
+}
+
+
+.whats{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media (max-width:320px){
+    .narvbar{
+        flex-direction:column;
+    }
+}
+
+@media (max-width:320px){
+    .quieneSomos{
+        font-size:  10px;;
+    }
+}
+
+@media (max-width:320px){
+    .surf{
+        font-size:  10px;;
+    }
+}
+
+@media (max-width:320px){
+    .imagen-surf{
+        width: 50%;
+    }
+}
